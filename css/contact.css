@@ -1,0 +1,36 @@
+#contact-content .row {
+  padding-top: 60px;
+}
+
+#contact-content .container{
+  margin-bottom: 100px;
+}
+
+i {
+  font-size: 1.8rem !important;
+}
+
+
+.contact-adress {
+  font-weight: 300;
+  color: #0b413f;
+  transition: 0.5s ease;
+}
+
+.invalid-feedback
+{
+  font-size: 1.3rem!important;
+}
+
+label{
+  font-size: 1.3rem;
+}
+
+.contact-form{
+  width: 80%;
+}
+
+.contact-button
+{
+  width: 100%;
+}

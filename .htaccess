@@ -1,0 +1,11 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-glowna index.html
+RewriteRule o-mnie about-me.html
+RewriteRule galeria gallery.html
+RewriteRule kontakt contakt.html

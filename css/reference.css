@@ -1,0 +1,10 @@
+#reference .carousel-item
+{
+  width: 700px!important;
+  margin-left: 80px!important;
+}
+
+#reference img
+{
+  width: 100%!important;
+}

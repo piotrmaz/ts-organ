@@ -1,0 +1,94 @@
+body {
+  font-family: 'EB Garamond', serif !important;
+  background-color: #e7b868!important;
+}
+
+#header {
+  font-family: 'Marcellus SC', serif;
+  color: black;
+  /* background: url("../background1.jpg");
+  background-position: center; */
+  /* background-color: #000; */
+  text-align: center;
+  padding-bottom: 50px;
+
+  /* The image used */
+  background-image: url("../img/background1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.first-row-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #eee;
+}
+
+.second-row-title {
+  font-size: 2.8rem;
+  color: #eee;
+}
+
+.navbar {
+  background-color: #630303;
+  margin-top: 0;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  margin-left: 30px;
+  color: #e7b868!important;
+}
+
+
+
+#footer {
+  position: relative;
+  z-index: 3;
+  font-family: 'Marcellus SC', serif;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #000;
+  background-color: #630303;
+  letter-spacing: 5px;
+  color: #ddd;
+}
+
+#footer h5 {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.icon-facebook-rect {
+  color: #ddd;
+  font-size: 2.5rem;
+}
+
+.icon-facebook-rect:hover {
+  color: #3b5998 !important;
+}
+
+#reference .img-modal{
+  width: 500px!important;
+  height: 800px!important;
+}

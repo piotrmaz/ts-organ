@@ -1,0 +1,6 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-location:before { content: '\e801'; } /* '' */
+.icon-mobile:before { content: '\e802'; } /* '' */
+.icon-mail:before { content: '\e805'; } /* '' */
+.icon-facebook-squared:before { content: '\f30e'; } /* '' */
