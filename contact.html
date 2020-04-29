@@ -71,71 +71,91 @@
   <section id="contact-content">
     <div class="container">
       <div class="row">
-        <!-- LEFT DIV - FORM -->
-        <div class="col-lg-8">
+
+      <div class="col-lg-6">
+        <img src="img/contact.jpg" alt="contact-image">
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row contact-adress">
+          <div class="col-lg-3">
+            <i class="icon-location"></i>
+          </div>
+          <div class="col-lg-9">
+            <h3 class="contact-adress">
+              Jan Nowak</br>
+              Warszawska 127</br>
+              00-234 Warszawa</br>
+            </h3>
+          </div>
+        </div>
+        <div class="row  contact-adress">
+          <div class="col-lg-3">
+            <i class="icon-mobile"></i>
+          </div>
+          <div class="col-lg-9">
+            <h3 class="contact-adress">
+
+              <div id="number" data-toggle="tooltip" data-placement="top" title="Pokaż numer" data-last="+48 123 123 456"><span><button>pokaż numer</button></span></div>
+
+              <!-- +48 456 456 456 -->
+            </h3>
+          </div>
+        </div>
+
+        <div class="row  contact-adress">
+          <div class="col-lg-3">
+            <i class="icon-mail"></i>
+          </div>
+          <div class="col-lg-9">
+            <h3 class="contact-adress">
+              <div id="email" data-toggle="tooltip" data-placement="top" title="Pokaż email" data-last="dwer@sfsd.com"><span><button>pokaż email</button></span></div>
+
+
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+      <div class="form-row">
+        <div class="col-lg-4">
           <form class="needs-validation contact-form" novalidate>
-            <div class="form-group">
-              <label for="email">Twój email</label>
+            <div class="form-group input-group-lg">
+              <input type="text" class="form-control" id="full-name" placeholder="Imię i nazwisko" required>
+              <div class="invalid-feedback">
+                Proszę wpisać imię i nazwisko.
+              </div>
+            </div>
+            <div class="form-group input-group-lg">
               <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
               <div class="invalid-feedback">
                 Proszę wpisać swój adres e-mail.
               </div>
             </div>
-            <div class="form-group">
-              <label for="topic">Temat</label>
+            <div class="form-group input-group-lg">
               <input type="text" class="form-control" id="topic" placeholder="Temat" required>
               <div class="invalid-feedback">
                 Proszę wpisać temat.
               </div>
             </div>
-            <div class="form-group">
-              <label for="message">Treść wiadomości</label>
-              <textarea class="form-control" id="message" rows="8" required></textarea>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="form-group input-group-lg">
+              <textarea class="form-control" id="message" placeholder="Treść" required></textarea>
               <div class="invalid-feedback">
                 Proszę wpisać treść wiadomości.
               </div>
             </div>
+          </div>
             <button type="submit" class="btn btn-outline-secondary btn-lg contact-button">WYŚLIJ</button>
+
           </form>
         </div>
-        <!-- END LEFT DIV - FORM   -->
-        <!-- RIGHT DIV -->
-        <div class="col-lg-4">
-          <div class="row contact-adress">
-            <div class="col-lg-3">
-              <i class="icon-location"></i>
-            </div>
-            <div class="col-lg-9">
-              <h3 class="contact-adress">
-                Jan Nowak</br>
-                Warszawska 127</br>
-                00-234 Warszawa</br>
-              </h3>
-            </div>
-          </div>
-          <div class="row  contact-adress">
-            <div class="col-lg-3">
-              <i class="icon-mobile"></i>
-            </div>
-            <div class="col-lg-9">
-              <h3 class="contact-adress">
-                +48 456 456 456
-              </h3>
-            </div>
-          </div>
-
-          <div class="row  contact-adress">
-            <div class="col-lg-3">
-              <i class="icon-mail"></i>
-            </div>
-            <div class="col-lg-9">
-              <h3 class="contact-adress">
-                dwer@sfsd.com
-              </h3>
-            </div>
-          </div>
-        </div>
-        <!-- END RIGHT DIV -->
       </div>
     </div>
   </section>

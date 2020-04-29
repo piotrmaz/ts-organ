@@ -1,9 +1,12 @@
 #contact-content .row {
-  padding-top: 60px;
+ padding-top: 25px;
+  /* padding-bottom: 25px; */
 }
+
 
 #contact-content .container{
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 i {
@@ -11,26 +14,28 @@ i {
 }
 
 
-.contact-adress {
-  font-weight: 300;
-  color: #0b413f;
-  transition: 0.5s ease;
-}
-
 .invalid-feedback
 {
   font-size: 1.3rem!important;
 }
 
-label{
-  font-size: 1.3rem;
-}
-
-.contact-form{
-  width: 80%;
-}
 
 .contact-button
 {
   width: 100%;
+}
+
+#contact-content textarea.form-control {
+    height: 11rem;
+  }
+
+#contact-content .container
+{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#contact-content img
+{
+  clip-path: polygon(0% 0%, 100% 0, 70% 100%, 75% 100%, 0% 100%);
 }
