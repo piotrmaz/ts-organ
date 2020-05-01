@@ -19,11 +19,19 @@ i {
   font-size: 1.3rem!important;
 }
 
-
 .contact-button
 {
   width: 100%;
+  border: solid 1px #630303!important;
+  color: #630303!important;
 }
+
+.contact-button:hover{
+  border: solid 1px #e7b868!important;
+  background-color: #630303!important;
+  color: #e7b868!important;
+}
+
 
 #contact-content textarea.form-control {
     height: 11rem;
@@ -38,4 +46,30 @@ i {
 #contact-content img
 {
   clip-path: polygon(0% 0%, 100% 0, 70% 100%, 75% 100%, 0% 100%);
+}
+
+
+.hide-value{
+  border-radius: 5px;
+  color: #e7b868;
+  font-size: 1.1rem;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  background-color: #630303;
+  box-shadow: 1px 1px 20px 0px #000;
+  text-shadow: 1px 1px 20px #000;
+  border: solid #22262c 1px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.hide-value:hover{
+  color: #630303;
+  background-color: #e7b868;
+  border: solid 1px  #e7b868;
+}
+
+
+textarea{
+  resize: none!important;
 }

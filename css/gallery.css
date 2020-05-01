@@ -1,5 +1,6 @@
 #content-gallery {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #content-gallery .card-img {
@@ -20,13 +21,17 @@
 }
 
 #content-gallery .modal-content img {
-  height: 547px;
-  width: 521px !important;
+  /* max-height: 547px;
+  max-width: 521px !important; */
+  width: 540px!important;
+  height: 580px!important;
 }
 
 #content-gallery .modal-content {
-  height: 580px;
-  width: 574px !important;
+  /* min-height: 580px;
+  min-width: 574px !important; */
+  width: 560px!important;
+  height: 615px!important;
 }
 
 #content-gallery .carousel-control-prev {

@@ -38,8 +38,8 @@
   </header>
 
   <nav id="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -96,9 +96,7 @@
           <div class="col-lg-9">
             <h3 class="contact-adress">
 
-              <div id="number" data-toggle="tooltip" data-placement="top" title="Pokaż numer" data-last="+48 123 123 456"><span><button>pokaż numer</button></span></div>
-
-              <!-- +48 456 456 456 -->
+              <div id="number" data-toggle="tooltip" data-placement="top" title="Pokaż numer" data-last="+48 123 123 456"><span><button class="hide-value">pokaż numer</button></span></div>
             </h3>
           </div>
         </div>
@@ -109,7 +107,7 @@
           </div>
           <div class="col-lg-9">
             <h3 class="contact-adress">
-              <div id="email" data-toggle="tooltip" data-placement="top" title="Pokaż email" data-last="dwer@sfsd.com"><span><button>pokaż email</button></span></div>
+              <div id="email" data-toggle="tooltip" data-placement="top" title="Pokaż email" data-last="dwer@sfsd.com"><span><button class="hide-value">pokaż email</button></span></div>
 
 
             </h3>
@@ -120,24 +118,24 @@
   </div>
 
   <div class="container">
-
+<form action="https://formspree.io/xdownvov" method="POST">
       <div class="form-row">
         <div class="col-lg-4">
           <form class="needs-validation contact-form" novalidate>
             <div class="form-group input-group-lg">
-              <input type="text" class="form-control" id="full-name" placeholder="Imię i nazwisko" required>
+              <input type="text" class="form-control" id="full-name" name="imie-nazwisko" placeholder="Imię i nazwisko" required>
               <div class="invalid-feedback">
                 Proszę wpisać imię i nazwisko.
               </div>
             </div>
             <div class="form-group input-group-lg">
-              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
               <div class="invalid-feedback">
                 Proszę wpisać swój adres e-mail.
               </div>
             </div>
             <div class="form-group input-group-lg">
-              <input type="text" class="form-control" id="topic" placeholder="Temat" required>
+              <input type="text" class="form-control" id="topic" name="temat" placeholder="Temat" required>
               <div class="invalid-feedback">
                 Proszę wpisać temat.
               </div>
@@ -146,18 +144,20 @@
 
           <div class="col-lg-8">
             <div class="form-group input-group-lg">
-              <textarea class="form-control" id="message" placeholder="Treść" required></textarea>
+              <textarea class="form-control" id="message" name="wiadomosc" placeholder="Treść" required></textarea>
               <div class="invalid-feedback">
                 Proszę wpisać treść wiadomości.
               </div>
             </div>
           </div>
-            <button type="submit" class="btn btn-outline-secondary btn-lg contact-button">WYŚLIJ</button>
+          <input type="hidden" name="_next" value="file:///C:/Users/Piotr/Desktop/organTS/about-me.html"/>
+            <button type="submit" class="btn btn-outline-* btn-lg contact-button">WYŚLIJ</button>
 
           </form>
         </div>
       </div>
     </div>
+    </form>
   </section>
 
 
