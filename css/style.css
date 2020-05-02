@@ -1,6 +1,6 @@
 body {
   font-family: 'EB Garamond', serif !important;
-  background-color: #e7b868!important;
+  background-color: #e7b868 !important;
 }
 
 #header {
@@ -44,10 +44,8 @@ body {
 .nav-link {
   font-size: 1.8rem;
   margin-left: 30px;
-  color: #e7b868!important;
+  color: #e7b868 !important;
 }
-
-
 
 #footer {
   position: relative;
@@ -82,61 +80,45 @@ body {
   color: #3b5998 !important;
 }
 
-#reference .img-modal{
-  width: 500px!important;
-  height: 800px!important;
+#reference .img-modal {
+  width: 500px !important;
+  height: 800px !important;
 }
 
-@media screen and (max-width: 991px){
-  .navbar-nav
-  {
+@media screen and (max-width: 991px) {
+  .navbar-nav {
     text-align: center;
   }
-
 }
+
 @media screen and (max-width: 699px) {
-  #header{
-  min-height: 400px;
-}
+  #header {
+    min-height: 400px;
+  }
 
-#header img
-{
-  width: 50%;
-}
+  #header img {
+    width: 50%;
+  }
 
-  .first-row-title
-  {
+  .first-row-title {
     font-size: 2rem;
   }
 
-  .second-row-title
-  {
+  .second-row-title {
     font-size: 2rem;
   }
 
-  #footer{
-    font-size: 0.7rem;
-    margin-top: 25px;
+  .top-footer {
+    /* transform: scale(0.5); */
+    font-size: 0.5rem;
   }
-    #footer h5
-    {
-      font-size: 0.8rem;
-      display: block;
-    }
 
-    .top-footer
-    {
-      margin-bottom: 20px;
-    }
+  .footer-logo {
+    margin-bottom: 0;
+    transform: scale(0.6);
+  }
 
-    .footer-logo
-    {
-      margin-right: 0;
-    }
-
-    .icon-facebook-rect
-    {
-      font-size: 2rem;
-    }
-
+  .icon-facebook-rect {
+    font-size: 1.3rem;
+  }
 }

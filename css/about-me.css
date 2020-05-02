@@ -45,3 +45,23 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 991px){
+
+  .img-1{
+  clip-path: circle(35% at 50% 50%);
+/* width: 80%!important; */
+}
+.img-2
+{
+  clip-path: circle(35% at 50% 50%);
+    /* width: 80%!important; */
+}
+.change-place1
+{
+  order: 2;
+}
+.change-place2{
+  order: 1;
+}
+}

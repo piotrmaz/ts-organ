@@ -100,19 +100,22 @@
   margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1090px){
-  .parallelogram{
+@media screen and (max-width: 1090px) {
+  .parallelogram {
     height: 60%;
+    right: 250px;
   }
-  .parallelogram h5{
+
+  .parallelogram h5 {
     font-size: 1rem;
     margin-top: 25px;
   }
-  .line-between-text{
-    margin-top: 15px;
 
+  .line-between-text {
+    margin-top: 15px;
   }
 }
+
 @media screen and (max-width: 699px) {
   .welcome h2 {
     font-size: 2rem;
@@ -122,48 +125,33 @@
   .parallelogram {
     width: 200px;
     height: 40%;
-    right: 350px;
+    left: 320px;
   }
 
-  .parallelogram h5{
+  .parallelogram h5 {
     font-size: 0.7rem;
     margin-top: 5px;
   }
-  .line-between-text{
+
+  .line-between-text {
     margin-top: 10px;
-
   }
-
 }
 
 @media screen and (max-width: 599px) {
   .parallelogram {
     width: 180px;
     height: 40%;
-    right: 250px;
+    left: 250px;
   }
 
-  .parallelogram h5{
-    font-size: 0.8rem;
-    margin-top: 5px;
-  }
-  .line-between-text{
-    margin-top: 5px;
-
-  }
-}
-
-@media screen and (max-width: 598px){
-  .parallelogram{
-    width: 180px;
-  }
-  .parallelogram h5{
+  .parallelogram h5 {
     font-size: 0.8rem;
     margin-top: 18px;
   }
-  .line-between-text{
+
+  .line-between-text {
     margin-top: 0;
     display: none;
-
   }
 }

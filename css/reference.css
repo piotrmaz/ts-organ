@@ -8,3 +8,24 @@
 {
   width: 100%!important;
 }
+
+@media screen and (max-width: 991px)
+{
+  #reference .carousel-item
+  {
+    margin-left: 35px!important;
+  }
+  #reference img
+  {
+    width: 65%!important;
+  }
+
+  .carousel-control-prev
+  {
+    background-color: #000;
+  }
+  .carousel-control-next
+  {
+    background-color: #000;
+  }
+}
