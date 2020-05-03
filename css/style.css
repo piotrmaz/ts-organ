@@ -47,6 +47,13 @@ body {
   color: #e7b868 !important;
 }
 
+.sticky
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 123;
+}
 #footer {
   position: relative;
   z-index: 3;
