@@ -60,3 +60,15 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+  //Classes On Body tag and Add ACTIVE Class on navbar link//
+$(document).ready(function() {
+  var url = window.location;
+  $('ul.navbar-nav a[href="' + url + '"]').parent().addClass('active');
+  $('ul.navbar-nav a').filter(function() {
+    return this.href == url;
+  }).parent().addClass('active');
+  // alert(url);
+  //jQuery("#output").html( url );
+});

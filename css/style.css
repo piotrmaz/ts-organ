@@ -47,13 +47,18 @@ body {
   color: #e7b868 !important;
 }
 
+.active{
+  text-decoration: overline;
+}
+
 .sticky
 {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 123;
 }
+
 #footer {
   position: relative;
   z-index: 3;
